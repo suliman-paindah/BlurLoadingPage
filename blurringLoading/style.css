@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    overflow:hidden;
+
+}
+div.bg{
+     background: url('../images/4.jpg') no-repeat center center/cover;
+     width: calc(100vw + 20px);
+     height: calc(100vh + 20px);
+     position: absolute;
+     z-index: -1;
+     top: -30px;
+     bottom: -30px;
+     filter: blur(0px);
+}
+div.text{
+
+    color: rgb(245, 7, 138);
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
